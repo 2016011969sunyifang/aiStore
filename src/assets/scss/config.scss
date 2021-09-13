@@ -1,0 +1,29 @@
+/*
+  样式规范表
+*/
+$min-width:1rem;  //容器安全区域宽度
+
+// 常规字体大小设置
+$fontA:       2.8rem; //产品站大标题
+$fontB:       2.6rem; //产品站标题
+$fontC:       2.4rem; //导航标题
+$fontD:       2.2rem; //产品站副标题
+$fontE:       2.0rem; 
+$fontF:       1.8rem;
+$fontG:       1.6rem; //用在较为重要的文字、操作按钮
+$fontH:       1.4rem; //用于大多数文字
+$fontI:       1.2rem; //用于辅助性文字
+$fontJ:       1rem; //用于一般文字
+
+// 常规配色设置
+$colorA:      #FFFFFF !default; //整体背景颜色
+$colorB:      #F6F1EF !default; //小标题及部分提示词背景颜色
+$colorC:      #00C17B !default; //icon整体颜色及部分背景
+$colorD:      #555555 !default; //icon未选中颜色
+$colorE:      #9999A6 !default; //用于特别弱的文字
+$colorF:      #000000 !default; //字体颜色
+$colorH:      #666666 !default; //title颜色
+$colorJ:      #FFFFFF !default; //整体背景颜色
+$colorI:      #EFEFEF !default; //黑暗背景颜色
+$colorK:      #e4e3e3 !default; //边框颜色
+$colorL:      #f3073a !default; //警示颜色
