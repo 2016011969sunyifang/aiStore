@@ -1,6 +1,15 @@
 # aistore
 
+一个充满充满爱意的小店
+
+前端Vue.js
+
+后端Egg.js
+
+包含移动端、后台管理系统
+
 ## Project setup
+
 ```
 yarn install
 ```
