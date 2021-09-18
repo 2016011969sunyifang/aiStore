@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie'
-import userreeq from './../../api/login'
+import userreeq from 'd:/work/aistore/src/api/login'
 import { getToken, setToken, removeToken } from '@/utils/auth'
 const state = {
     token: getToken(),

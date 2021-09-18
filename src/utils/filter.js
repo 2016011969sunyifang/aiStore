@@ -19,12 +19,7 @@ Vue.filter('dayjs', function (dataStr, pattern = 'YYYY-MM-DD HH:mm:ss') {
 Vue.filter('moment', function (dataStr, pattern = 'YYYY-MM-DD HH:mm:ss') {
   return moment(dataStr).format(pattern)
 })
-Vue.filter('dateFormat2', function (originVal) {
-  originVal = (originVal + '').substring(0, 10);
-  originVal *= 1000;
-  originVal = originVal
-  return moment(originVal).format('YYYY-MM-DD HH:mm:ss');
-})
+
 /**
  * 金额格式化 ，使用方法：{{ val | Fmoney }}
  *

@@ -6,7 +6,11 @@
 
 <script>
 export default {
-  data() {},
+  data() {
+    return {
+      
+    }
+  },
   mounted() {
     let htmlWidth =
       document.documentElement.clientWidth || document.body.clientWidth;

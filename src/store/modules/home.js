@@ -1,4 +1,4 @@
-import home from './../../api/Home'
+import home from 'd:/work/aistore/src/api/Home'
 const state = {
     addressList: '',
 }

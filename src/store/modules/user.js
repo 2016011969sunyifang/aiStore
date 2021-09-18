@@ -1,4 +1,4 @@
-import userInFo from './../../api/userInfo'
+import userInFo from 'd:/work/aistore/src/api/userInfo'
 const state = {
     integral_mall:'',
     integral_paid:'',

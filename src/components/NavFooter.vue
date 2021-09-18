@@ -10,11 +10,12 @@
       <van-tabbar-item replace to="/index" icon="home-o">首页
       </van-tabbar-item>
       <van-tabbar-item replace to="/share" icon="apps-o"
-        >积分商城</van-tabbar-item
+        >娱乐</van-tabbar-item
       >
-      <van-tabbar-item replace to="/notice" icon="notes-o">公告</van-tabbar-item>
+      <van-tabbar-item replace to="/notice" icon="notes-o">晴天日记</van-tabbar-item>
+      <van-tabbar-item replace to="/notice" icon="notes-o">购物车</van-tabbar-item>
       <van-tabbar-item replace to="/mine" icon="manager-o"
-        >会员中心</van-tabbar-item
+        >我的</van-tabbar-item
       >
     </van-tabbar>
   </div>

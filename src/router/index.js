@@ -15,7 +15,30 @@ const routes = [{
         meta: {
             pageTitle: '商城首页'
         }
-    }, ]
+    }, {
+        path: '/entertainment',
+        name: 'entertainment',
+        component: () => import('../views/index'),
+        meta: {
+            pageTitle: '娱乐'
+        }
+    },
+    {
+        path: '/index',
+        name: 'index',
+        component: () => import('../views/index'),
+        meta: {
+            pageTitle: '商城首页'
+        }
+    },
+    {
+        path: '/index',
+        name: 'index',
+        component: () => import('../views/index'),
+        meta: {
+            pageTitle: '商城首页'
+        }
+    },]
 },{
     path: '/goodList',
     name: 'goodList',
