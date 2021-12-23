@@ -11,6 +11,7 @@ import './assets/iconfont/iconfont.css';
 import successNotify from './utils/successControal.ts';
 
 
+
 Vue.use(Vant);
 Vue.use(Lazyload);
 Vue.prototype.$api = serve;
